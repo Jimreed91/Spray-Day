@@ -16,6 +16,14 @@ public class Sprayer {
     private int speed ;
     private Nozzle nozzle;
     
+    public Sprayer(String name, int cap, int noz) {
+        this.capacity = cap;
+        this.nozzleNo = noz;
+        this.speed = 7;
+        this.nozzle = new Nozzle("Yellow", 1.03);
+    }
+    
+     
     
     public Sprayer(String name, int cap, int noz, Nozzle nozzle, int speed) {
         this.capacity = cap;
@@ -86,6 +94,3 @@ return sprayOut;
         return speed;
     }
 }
-
-@Override
-

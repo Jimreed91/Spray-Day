@@ -42,7 +42,8 @@ public class Main {
           System.out.println("Spray output" + sprayOutput);
           System.out.println("Final tank volume" + partTank);
         
-          
+          UI inter = new UI();
+          inter.setup();
           
     }
     
